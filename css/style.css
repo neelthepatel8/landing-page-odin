@@ -41,6 +41,7 @@ body {
   align-items: flex-start;
   padding: 0;
   padding-top: 100px;
+  padding-bottom: 40px;
   justify-content: space-between;
 }
 .herobar .left-hero {
@@ -75,7 +76,22 @@ body {
 .content {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
-.content title h2{
-
+.content .title h2{
+    font-size: 35px;
+    padding: 15px;
+}
+.content-images{
+    display: flex;
+    width: 75%;
+    text-align: center;
+}
+.content-images .img1, .img2, .img3, .img4{
+    padding: 20px;
+}
+.content-images img{
+    border: 4px solid;
+    border-color: #0b84fe ;
+    border-radius: 12px;
 }
