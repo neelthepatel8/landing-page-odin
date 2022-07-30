@@ -111,13 +111,45 @@ body {
   font-style: italic;
   font-size: 30px;
   color: gray;
-  
 }
-.quote q{
+.quote q {
   padding: 0 30px;
 }
-.quote p{
+.quote p {
   text-align: right;
   font-weight: bold;
 }
+.signup-container {
+  width: 65%;
+  background-color: #0b84fe;
+  border-radius: 12px;
+  margin: 50px auto;
+}
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+  width: 70%;
+  margin: 0 auto;
+}
+.signup .text {
+  color: white;
+}
 
+h3{
+  padding: 0;
+  margin: 0;
+}
+.button{
+  align-self: center;
+}
+.signup button{
+  color: white;
+  background-color: #0b84fe;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 4px 30px;
+  font-weight: 600;
+}
